@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Martian+Mono&family=Merriweather&family=Roboto&display=swap');
+
+::-webkit-scrollbar{
+  background-color: rgb(110, 110, 239);
+  border-radius: 12px;
+  width: 4px;
+}
+
+::-webkit-scrollbar-thumb{
+    background-color: rgb(191, 159, 254);
+    border-radius: 8px;
+}
+
+.ul-items::-webkit-scrollbar{
+  background-color: rgb(110, 110, 239);
+  border-radius: 8px;
+  width: 4px;
+}
+
+.ul-items::-webkit-scrollbar-thumb{
+    background-color: rgb(191, 159, 254);
+  border-radius: 8px;
+}
